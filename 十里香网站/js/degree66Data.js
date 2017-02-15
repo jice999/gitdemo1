@@ -1,0 +1,150 @@
+/**
+ * Created by 季策 on 2017/1/2.
+ */
+var degree66Data = {};
+degree66Data.degree66Data00={
+    "success":"成功",
+    "data":{
+        "pageStart":0, //数据第几页
+        "pageSize":6, //pageSize 数据最大数量
+        "count":18,   //数据总数量
+        "degree66":[{
+            "coverImg":"img/pb1.jpg",
+            "sysId":1,
+            "title":"66°十里香——填补沧州特产高端礼品空白！",
+            "status":2
+        },{
+            "coverImg":"img/pb2.jpg",
+            "sysId":2,
+            "title":"66°会员休息厅亮相沧州高铁站！",
+            "status":2
+        },{
+            "coverImg":"img/pb3.jpg",
+            "sysId":3,
+            "title":"【66健康家】出海吃海鲜，66°最搭调！",
+            "status":2
+        },{
+            "coverImg":"img/pb4.jpg",
+            "sysId":4,
+            "title":"66°十里香会员挺进渤海湾！",
+            "status":2
+        },{
+            "coverImg":"img/pb5.jpg",
+            "sysId":5,
+            "title":"李向阳：人生处处是挑战",
+            "status":2
+        },{
+            "coverImg":"img/pb6.jpg",
+            "sysId":6,
+            "title":"66°十里香会员活动“中秋心意”圆满结束！",
+            "status":2
+        }]
+    }
+}
+degree66Data.degree66Data01={
+    "success":"成功",
+    "data":{
+        "pageStart":1, //数据第几页
+        "pageSize":6, //pageSize 数据最大数量
+        "count":18,   //数据总数量
+        "degree66":[{
+            "coverImg":"img/pb7.jpg",
+            "sysId":1,
+            "title":"66°十里香——填补沧州特产高端礼品空白！",
+            "status":2
+        },{
+            "coverImg":"img/pb8.jpg",
+            "sysId":2,
+            "title":"66°会员休息厅亮相沧州高铁站！",
+            "status":2
+        },{
+            "coverImg":"img/pb9.jpg",
+            "sysId":3,
+            "title":"【66健康家】出海吃海鲜，66°最搭调！",
+            "status":2
+        },{
+            "coverImg":"img/pb10.jpg",
+            "sysId":4,
+            "title":"66°十里香会员挺进渤海湾！",
+            "status":2
+        },{
+            "coverImg":"img/pb11.jpg",
+            "sysId":5,
+            "title":"李向阳：人生处处是挑战",
+            "status":2
+        },{
+            "coverImg":"img/pb12.jpg",
+            "sysId":6,
+            "title":"66°十里香会员活动“中秋心意”圆满结束！",
+            "status":2
+        }]
+    }
+}
+degree66Data.degree66Data02={
+    "success":"成功",
+    "data":{
+        "pageStart":2, //数据第几页
+        "pageSize":6, //pageSize 数据最大数量
+        "count":18,   //数据总数量
+        "degree66":[{
+            "coverImg":"img/pb13.jpg",
+            "sysId":1,
+            "title":"66°十里香——填补沧州特产高端礼品空白！",
+            "status":2
+        },{
+            "coverImg":"img/pb14.jpg",
+            "sysId":2,
+            "title":"66°会员休息厅亮相沧州高铁站！",
+            "status":2
+        },{
+            "coverImg":"img/pb15.png",
+            "sysId":3,
+            "title":"【66健康家】出海吃海鲜，66°最搭调！",
+            "status":2
+        },{
+            "coverImg":"img/pb16.png",
+            "sysId":4,
+            "title":"66°十里香会员挺进渤海湾！",
+            "status":2
+        },{
+            "coverImg":"img/pb17.png",
+            "sysId":5,
+            "title":"李向阳：人生处处是挑战",
+            "status":2
+        },{
+            "coverImg":"img/pb18.png",
+            "sysId":6,
+            "title":"66°十里香会员活动“中秋心意”圆满结束！",
+            "status":2
+        }]
+    }
+}
+degree66Data.degree66Data03={
+    "success":"成功",
+    "data":{
+        "pageStart":3, //数据第几页
+        "pageSize":6, //pageSize 数据最大数量
+        "count":18,   //数据总数量
+        "degree66":[{
+            "coverImg":"img/pb19.jpg",
+            "sysId":1,
+            "title":"66°十里香——填补沧州特产高端礼品空白！",
+            "status":2
+        },{
+            "coverImg":"img/pb20.png",
+            "sysId":2,
+            "title":"66°会员休息厅亮相沧州高铁站！",
+            "status":2
+        },{
+            "coverImg":"img/pb21.png",
+            "sysId":3,
+            "title":"【66健康家】出海吃海鲜，66°最搭调！",
+            "status":2
+        },{
+            "coverImg":"img/pb22.png",
+            "sysId":4,
+            "title":"66°十里香会员挺进渤海湾！",
+            "status":2
+        }]
+    }
+}

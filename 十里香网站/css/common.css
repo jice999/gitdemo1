@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    border:none 0;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+ul li{
+    list-style:none;
+}
+body{
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'STHeiti Light [STXihei]', 'Microsoft Yahei', sans-seri;
+    background-color: #eaeaea;
+}
+.bannder{
+    height: 282px;
+    width: 100%;
+    margin: 0 auto;
+}
+.bannder img{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.pc_zt{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 88px;
+    background: white;
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+    box-shadow:0 2px 5px rgba(0, 0, 0, .25);
+}
+.pczt_top{
+    width: 1280px;
+    height: 115px;
+    overflow: hidden;
+    position: relative;
+}
+.pct_zy{
+    margin-left: 30px;
+    margin-top: 23px;
+    width: 217px ;
+    height: 19px;
+    font-size: 14px;
+    color: #a1a1a1;
+}
+.pct_zy a{
+    text-decoration: none;
+    float: left;
+    margin-right: 8px;
+    color: #a1a1a1;
+}
+.pct_zy span{
+    float: left;
+    margin-right: 8px;
+}
+.pct_zy a:hover{
+    color: #c00100;
+}
+.pct_zhxi{
+    color: #444;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.pct_y{
+    width: 533px;
+    height: 37px;
+    position: absolute;
+    right: 30px;
+    bottom: 28px;
+    font-size: 18px;
+    color: #626262;
+}
+.pct_span:hover{
+    color: #a40001;
+    border: 1px solid #a40001
+}
+.pct_ding{
+    color: #a40001;
+    border-color: #a40001!important;
+}
+.pct_span{
+    text-decoration: none;
+    display: inline-block;
+    padding: .3em 1.5em .25em;
+    margin-left: 5px;
+    float: right;
+    border: 1px solid transparent;
+}
+.returntop{
+    width: 50px;
+    height: 106px;
+    position: fixed;
+    z-index: 60;
+    top: 460px;
+    right: 10px;
+}
+.lx{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background: #666;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.f_top{
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+    cursor: pointer;
+    background: #666 url(../img/uparr.png) no-repeat center;
+}

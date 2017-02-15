@@ -1,0 +1,170 @@
+.xj_ban{
+    width: 100%;
+    height: 390px;
+    margin: 0 auto;
+    background: #050100;
+    position: relative;
+    z-index: 1;
+}
+.xj_ban img{
+    width:100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.xj_cptz{
+    width: 100%;
+    height: 756px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: 100%;
+    background: url("../img/xijiubei.png") no-repeat center;
+}
+.xj_cp{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.xj_cp h3{
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 40px;
+    color: #444;
+}
+.xj_cp ul{
+    margin-top: 20px;
+}
+.xj_cp li{
+    color: rgb(68,68,68);
+    font-size: 16px;
+    line-height: 22px;
+}
+.xj_cp span{
+    font-size: 36px;
+    color: #444;
+    display: block;
+    margin-top: 75px;
+}
+.xj_cp p{
+    color: rgb(68,68,68);
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 13px;
+}
+.xj_jq{
+    width: 801px;
+    height: 917px;
+    position: absolute;
+    right: 0;
+    bottom: -755px;
+    z-index: 50;
+}
+.xj_jq img{
+    width: 100%;
+}
+.xj_lun{
+    width: 100%;
+    height: 422px;
+    margin: 0 auto;
+}
+.xj_lunb{
+    width: 100%;
+    max-width: 1280px;
+    height: 422px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.xj_luno{
+    width: 1158px;
+    height: 322px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 51px;
+}
+.xj_lund{
+    width: 1930px;
+    height: 322px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.xj_lunx{
+    width: 386px;
+    height: 322px;
+}
+.xj_zy{
+    width: 25px;
+    height: 84px;
+    position: absolute;
+    top: 50%;
+    margin-top: -42px;
+}
+.prve{
+    left: 0;
+    background: url("../img/xj_z.png") no-repeat center;
+}
+.next{
+    right:0;
+    background: url("../img/xjy.png") no-repeat center;
+}
+.xj_lunx{
+    width: 386px;
+    height: 322px;
+    float: left;
+    text-align: center;
+}
+.xj_img{
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: inline-block;
+}
+.xj_lunx img{
+    width: 280px;
+    height: 280px;
+    opacity: 1;
+}
+.xj_lunx span{
+    font-size: 14px;
+}
+.xj_lunx i{
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+}
+.zs{
+    top: 0;
+    left: 0;
+    border-width:4px 0 0 4px ;
+}
+.zx{
+    top: 0;
+    right: 0;
+    border-width:4px 4px 0 0 ;
+}
+.ys {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 4px 4px;
+}
+.yx{
+    bottom: 0;
+    right: 0;
+    border-width:0 4px 4px 0 ;
+}
+.xj_lunx:hover i{
+    border-color: #a40001;
+}
+.xj_lunx:hover span{
+    color: #a40001;
+}
+.xj_lunx:hover img{
+    opacity: 0.8;
+}

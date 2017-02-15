@@ -1,0 +1,28 @@
+.v_zt{
+    width: 1266px;
+    margin: 0 auto;
+}
+.v_x{
+    width: 380px;
+    height: 320px;
+    float: left;
+   text-align: center;
+    line-height: 30px;
+    position: relative;
+    margin: 10px 20px;
+}
+.v_x span{
+    color: #626262;
+    font-size: 18px;
+}
+.v_x i{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background: url(../img/play.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -49px;
+    left: 50%;
+    margin-left: -34px;
+}

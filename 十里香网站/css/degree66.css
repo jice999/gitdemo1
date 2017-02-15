@@ -1,0 +1,180 @@
+.lun_66{
+    width: 800px;
+    height: 301px;
+    margin: 0 auto;
+    margin-top: 47px;
+    /*background: #ffff00;*/
+    position: relative;
+    transform-style:preserve-3d ;
+    perspective: 500px;
+}
+.li9{
+    width: 534px;
+    height: 301px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -241px;
+    margin-top: -150px;
+    transition: all 0.3s;
+}
+.p2,.p3,.p4{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);  /* chrome, opera */
+    -ms-filter: blur(6px);
+    -moz-filter: blur(6px);
+}
+.p1{
+    transform: translate3d(0,0,0) ;
+}
+.p2{
+    transform: translate3d(200px,0,-200px) ;
+    transform-origin: 0 50%;
+}
+.p3{
+    transform: translate3d(0,0,-400px);
+}
+.p4{
+    transform: translate3d(-200px,0,-200px) ;
+}
+.niu{
+    width: 51px;
+    height: 79px;
+    position: absolute;
+    top:97px;
+}
+.prve{
+    left: 0;
+    background: url("../img/66z.png") no-repeat center;
+}
+.next{
+    right: 0;
+    background: url("../img/66y.png") no-repeat center;
+}
+.vip{
+    width: 105px;
+    height: 39px;
+    margin: 0 auto;
+    background: #a40001;
+    font-size: 14px;
+    color: white;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 64px;
+}
+/*瀑布流开始*/
+.pb{
+    width: 100%;
+    max-width: 1225px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.pb_d{
+    width: 100%;
+    max-width: 1225px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pbx{
+    width: 588px;
+    height: 331px;
+    margin: 1%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.pb_s{
+    width: 588px;
+    height: 331px;
+    position: absolute;
+    left:0px;
+    top: 0;
+   /* background: #ffff00;*/
+    z-index: 888;
+    background: rgba(0,0,0,0.4);
+    transition: 0.5s;
+
+}
+.pbx:hover .pb_s{
+    left: -588px;
+}
+
+.pbx span{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    font-size: 12px;
+    width: 100%;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+.pbb_img{
+    width: 100%;
+    height: 100%;
+}
+.pbx img{
+    position: absolute;
+}
+.lefttop{
+    left: 0;
+    top: 0;
+}
+.leftbottom{
+    left: 0;
+    bottom: 0;
+}
+.righttop{
+    right: 0;
+    top: 0;
+}
+.rightbottom{
+    right: 0;
+    bottom: 0;
+}
+.up{
+    z-index: 999;
+}
+.down{
+    z-index: 0;
+}
+.pbx:hover{
+    box-shadow:0 0 0 2px black inset ;
+    transform: translate(0,-4px);
+}
+.pb_jz{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    background: url("../img/zp_bot.png") no-repeat center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*瀑布流结束*/

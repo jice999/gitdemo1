@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: url("../img/bg_ft.png")repeat;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+}
+.f_28{
+    width: 100%;
+    max-width: 1280px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.f_gy{
+    width: 121px;
+    height: 160px;
+    float: left;
+    position: relative;
+    margin-top: 70px;
+    padding-left: 40px;
+    border-right: 1px solid rgba(255, 255, 255, .1)
+}
+.f_gy h3{
+    color: white;
+    font-size: 16px;
+    opacity: .8;
+}
+.f_gy ul{
+    margin-top: 20px;
+}
+.f_gy li{
+    margin-top: 8px;
+    font-size: 14px;
+    color: white;
+    opacity: .4;
+}
+.f_gy li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.f_zai{
+    width: 249px;
+    height: 36px;
+    position: absolute;
+    bottom: 100px;
+    right: 43px;
+}
+.fz_wx{
+    float: left;
+    margin-top: 3px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.fz_pe{
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.fz_zai{
+    width: 114px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+.fz_wx:hover{
+    cursor: pointer;
+}
+.fz_pe:hover{
+    cursor: pointer;
+}
+.fz_zai:hover{
+    cursor: pointer;
+}
+.f_hei{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background: #1a1a1a;
+}
+.fhei_28{
+    width: 100%;
+    max-width: 1280px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: white;
+    opacity: .2;
+    font-family: "Microsoft YaHei";
+}
+.fh_sp1{
+    width: 328px;
+    height: 40px;
+    float: left;
+    margin-left: 37px;
+    line-height: 40px;
+}
+.fh_sp2{
+    width: 334px;
+    height: 40px;
+    float: right;
+    margin-right: 37px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+{}

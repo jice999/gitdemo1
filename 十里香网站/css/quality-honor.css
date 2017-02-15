@@ -1,0 +1,202 @@
+.pz_zt{
+    width: 1226px;
+   /* height: 1960px;*/
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+/*小日历开始*/
+.pz_rl{
+    width: 371px;
+    height: 113px;
+    position: absolute;
+    z-index:999;
+    left: 0;
+    top: 0;
+    background:  #a40001;
+}
+.rl_lun{
+    width: 361px ;
+    height: 65px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background: white;
+}
+.rl_luno{
+    width: 300px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.rl_lund{
+    width: 1080px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.rl_lunx{
+    width: 144px;
+    height: 65px;
+    float: left;
+    margin-right: 12px;
+    font-size: 65px;
+    color: #cecece;
+    font-weight: bold;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+}
+.rl_lunxdj{
+    color:#a40001 ;
+}
+.zy{
+    width: 32px;
+    height: 65px;
+    position: absolute;
+    top:0;
+    cursor: pointer;
+}
+.prve{
+    left: 0;
+    background: url("../img/tz_z.png") no-repeat center;
+}
+.next{
+    right: 0;
+    background: url("../img/zj.png") no-repeat center;
+}
+.rl_zi{
+    font-size: 18px;
+    color: white;
+    margin-top: 82px;
+    margin-left: 61px;
+}
+/*小日历结束*/
+/*切换的内容开始*/
+.pz_hn{
+    width: 818px;
+    height:1859px;
+    /*margin: 0 auto;*/
+    left: 206px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+}
+.pz_yt{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #a40001;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.top{
+    top: 0;
+}
+.pz_xian{
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+}
+.pz_nr1,.pz_nr2{
+    width: 370px;
+    height: 322px;
+    position: absolute;
+}
+.nr1{
+    top: 196px;
+    left: 0;
+}
+.pz_nr1 span {
+    font-size: 16px;
+    color: #444;
+    float: right;
+    margin-bottom: 7px;
+}
+.pz_nr1 p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 1px;
+}
+.pz_yuan{
+    width: 18px;
+    height: 18px;
+    background-color: #a9a9a9;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+    right: -49px;
+    top:2px;
+}
+.pz_nr2 span {
+    font-size: 16px;
+    color: #444;
+    float: left;
+    margin-bottom: 7px;
+}
+.pz_nr2 p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 1px;
+}
+.yuan_y{
+    left: -49px;
+}
+.pz_nr2{
+    position: absolute;
+    top: 434px;
+    right: -2px;
+}
+.nr3{
+    top:643px;
+    left:0;
+}
+.nr4{
+    top:834px;
+    right: -2px;
+}
+.p14n{
+    top:418px;
+    right: -2px;
+}
+.nr5{
+    top: 1340px;
+}
+.bot{
+    bottom: 0px;
+}
+.pz_bot{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background:white url("../img/zp_bot.png") no-repeat center;
+}
+.pz_hng1{
+    height: 1611px;
+}
+.pz_hng2{
+    height: 1160px;
+}
+.pz_hng3{
+    height: 687px;
+}
+
+
+
+/*切换的内容结束*/

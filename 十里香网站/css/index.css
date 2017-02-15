@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/*注轮播开始*/
+.zt_luno{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 500px;
+    overflow: hidden;
+    webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 51.5% 95%, 50% 100%, 48.5% 95%, 0% 95%);
+    -webkit-mask: url(../img/ztlun_zezhao.png) no-repeat center bottom;
+    mask: url(../img/ztlun_zezhao.png) no-repeat center bottom;
+}
+.zt_lund{
+    width: 5000px;
+    height: 500px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+}
+.zt_lunx{
+    height: 500px;
+    float: left;
+    position: relative;
+    z-index: 20;
+}
+.zt_img1{
+    background: url("../img/ztlun1.jpg") no-repeat center;
+    background-size:auto 100%;
+}
+.zt_img2{
+    background: url("../img/ztlun2.jpg") no-repeat center;
+    background-size:auto 100%;
+}
+.zt_img3{
+    background: url("../img/ztlun3.jpg") no-repeat center;
+    background-size:auto 100%;
+}
+.zt_xj{
+    width: 100%;
+    height: 36px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 30;
+    background:transparent url("../img/zt_xj.png") no-repeat center  bottom;
+}
+.zt_jiao{
+    width: 49px;
+    height: 56px;
+    background: url("../img/zt_jiao.png") no-repeat center;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 40;
+    transition: 1s;
+}
+.zt_zy{
+    width: 1150px;
+    height: 121px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -62px;
+    left: 50%;
+    margin-left: -575px;
+    z-index: 50;
+}
+.niu{
+    width: 56px;
+    height: 121px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 50;
+    text-align: center;
+}
+.prev img{
+    margin-top: 17px;
+}
+.prev{
+    float: left;
+}
+.nest{
+    float: right;
+}
+.nest img{
+    margin-top: 17px;
+}
+.zt_yuan{
+    width: 1150px;
+    height: 8px;
+    position: absolute;
+    bottom: 47px;
+    left: 50%;
+    margin-left: -575px;
+    z-index: 50;
+}
+.zt_ul{
+    float: left;
+}
+.zt_li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    background: white;
+    opacity: .2;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.zt_lidj{
+    background: #c00100 ;
+}
+/*主轮播结束*/
+/*竖着的轮播开始*/
+.sz_lun{
+    width: 100%;
+    max-width: 1280px;
+    height: 680px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Microsoft YaHei";
+}
+.sz_y{
+    width: 340px;
+    height: 713px;
+    float: right;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    right: 0px;
+    top: -33px;
+}
+.shu{
+    width: 52px;
+    height: 17px;
+    position: absolute;
+    margin-left: -26px;
+    opacity: 1;
+    left: 50%;
+}
+.sz_top{
+    background: url("../img/shu_top.png") no-repeat center;
+    top: 46px;
+}
+.sz_btoom{
+    background: url("../img/shu_btoom.png") no-repeat center;
+    bottom: 46px;
+
+}
+.sz_topdi{
+    opacity: 0.5;
+}
+.sz_yo{
+    height: 500px;
+    width: 340px;
+    margin-top: 107px;
+    position: relative;
+    overflow: hidden;
+}
+.sz_yd{
+    width: 340px;
+    height: 1000px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.sz_yx{
+    width: 340px;
+    height: 100px;
+    position: relative;
+    opacity: 0.3;
+}
+.sz_yxdj{
+    opacity: 1;
+}
+.sz_yx_zi{
+    width: 302px;
+    height: 64px;
+    font-size: 1rem;
+    color: white;
+    opacity: 1;
+    text-align: right;
+    line-height: 32px;
+}
+.sz_yx i{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #c00;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 12px;;
+}
+.sz_yx span{
+    width: 1px;
+    height: 83.5%;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 28px;
+    background: white;
+    opacity: 0.7;
+}
+.sz_gd{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 25px 35px ;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+}
+.sz_gd h3{
+    float: left;
+}
+.sz_gd a{
+    text-decoration: none;
+    float: right;
+    margin-left: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, .2) url(../img/sz_gengduo.png) no-repeat 90% center;
+    background-size: auto 80%;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 20px 5px 10px;
+}
+.sz_zx{
+    width: 40%;
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    left: 0;
+    padding: 40px;
+    display: none;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .6);
+}
+
+.sz_zx span{
+     display: block;
+     font-size: 14px;
+     margin-top: 10px;
+}
+.sz_zx p{
+    display: block;
+    font-size: 14px;
+    margin-top: 22px;
+    line-height: 22px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../img/shu0.jpg") no-repeat center;
+
+    background-attachment: fixed;
+
+    /*transition:1s ;*/
+}
+/*竖着的轮播结束*/
+/*横着轮播开始*/
+.hl_ks{
+    width: 100%;
+    height: 515px;
+    margin: 0 auto;
+    background-color: #b8b8b8;
+    font-family: "Microsoft YaHei";
+}
+.hl_hei{
+    width: 100%;
+    max-width: 1349px;                 /*款*/
+    height: 100px;
+    margin: 0 auto;
+    background-color:#0d0c0a ;
+    color: white;
+}
+.hl_hei_z{
+    width: 100%;
+    max-width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+.hl_hei_z h3{
+    font-size: 30px;
+    float: left;
+    font-weight: normal;
+}
+.hl_hei_z a{
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 31px 0 20px;
+    height: 30px;
+    margin-top: 35px;
+    border: 1px solid white;
+    background: url("../img/hl-hei_jinru.png") no-repeat right 90%;
+}
+.hl_zt{
+    width: 100%;
+    max-width: 1280px;
+    height: 415px;
+    margin: 0 auto;
+    position: relative;
+}
+.hl_anniu{
+    width: 11px;
+    height: 292px;
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -149px;
+    text-align: center;
+    background: url("../img/h_p_pro.png") no-repeat center;
+}
+.hl_n1{
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background: white ;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.hl_n1dj{
+    background:#e50012;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.hl_lun{
+    width: 1070px;
+    height: 415px;
+}
+.hl_lunz{
+    width: 298px;
+    height: 288px;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 73px;
+}
+.hl_lunz h3{
+     font-size: 48px;
+     font-weight: bold;
+}
+.hl_lunz p{
+    font-size: 24px;
+    margin-top: 19px;
+}
+.hl_lunz span{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 44px;
+}
+.hl_lunz strong{
+    font-size: 30px;
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 43px;
+}
+.hl_lunz a{
+    font-size: 16px;
+    line-height: 2;
+    text-decoration: none;
+    color: #c00;
+    border-left: 1px solid #c00;
+    padding-left: 20px;
+    margin-left: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -14px;
+}
+.hl_yo{
+    width: 400px;
+    height: 396px;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+.hl_yd{
+    width: 820px;
+    height: 396px;
+    position: absolute;
+    left: 0;
+    top:0;
+    transition: 1s;
+}
+.hl_ydi{
+    float: left;
+    transition: 4s ;
+}
+.hl_yn{
+    width: 42px;
+    height: 20px;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    margin-left: -10px;
+}
+.hl{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.hl_ydi:hover{
+
+    transform: scale(1.08);
+}
+.hl_z{
+    float: left;
+    background: #4c4c4c ;
+}
+.hl_y{
+    float: right;
+    background: #4c4c4c;
+}
+.hl:hover{
+    background: #c00;
+}
+.hl_luno{
+    width: 1070px;
+    height: 415px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+.hl_lund{
+    width: 1070px;
+    height: 1245px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
+
+
+/*横着轮播结束*/

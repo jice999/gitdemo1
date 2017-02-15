@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/*头部不固定开始*/
+.h_top{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background: url("../img/cqhf.gif") no-repeat center;
+    background-size: 100% auto;
+}
+.h_top:hover{
+    cursor: pointer;
+}
+.h_zh{
+    width: 100%;
+    height: 151px;
+    margin: 0 auto;
+    background: url("../img/hd_t.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.h_lg{
+    width: 1180px;
+    height: 118px;
+    margin: 0 auto;
+    position: relative;
+}
+.h_limg{
+    position: absolute;
+    left: 50%;
+    margin-left: -74px;
+    top: 28px;
+}
+.hzh_ul{
+     width: 143px;
+     height: 24px;
+     position: absolute;
+     bottom: 27px;
+     right: 6px;
+    line-height: 24px;
+}
+.h_a1{
+    float: left;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+.h_a2{
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 15px;
+}
+.h_sy{
+    width: 100%;
+    max-width: 1280px;
+    height: 33px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 33px;
+    font-family: "Microsoft YaHei" ! important;
+}
+.h_sy ul{
+    font-size: 18px;
+    margin-left: 108px;
+    margin-bottom: -8px;
+}
+.h_sy li{
+    float: left;
+    margin-left: 43px;
+}
+.lih{
+    color: black;
+}
+.h_sy li:hover{
+    color:#a40001 ;
+    cursor: pointer;
+}
+.lidj{
+    color:#a40001 ;
+}
+
+.h_is{
+    width: 185px;
+    height: 23px;
+    float: right;
+    line-height: 23px;
+    margin-top: 5px;
+}
+.h_is input{
+    width: 168px;
+    height: 23px;
+    float: left;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    background: 0;
+}
+.h_is img{
+    float: right;
+}
+.h_xb{
+    width: 100%;
+    height: 38px;
+    border-bottom:3px solid  #a40001;
+    position: relative;
+    z-index: 30;
+}
+.h_hei{
+    width: 100%;
+    height: 35px;
+    background: #231815 url(../img/bg_1.png) no-repeat right center;
+}
+.h_xbi{
+    width: 63px;
+    height: 90px;
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top:0;
+    background: url("../img/bar_bt.png")no-repeat;
+}
+.h_28{
+    width: 100%;
+    max-width: 1280px;
+    height: 35px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.h_bai{
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+.mainbody{
+    width: 100%;
+    margin: 0 auto;
+}
+/*头部不固定结束*/
+
+
