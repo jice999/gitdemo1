@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的预约</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no"/>
+    <!--WebApp全屏模式   隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <!--强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明）-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码 -->
+    <meta name="format-detection" content="telephone=no"/>
+    <!--告诉设备忽略将页面中的地址识别 -->
+    <meta name="format-detection" content="address=no"/>
+    <link rel="stylesheet" href="css/consumption.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/consumption.js"></script>
+</head>
+<body>
+<form>
+    <div class="top">
+        <div class="top_2015">
+            <img src="img/VIPimage05.png" class="top_tu">
+            <span>2015</span>
+            <img src="img/detail_select_bg.png" class="top_j">
+        </div>
+    </div>
+    <div class="center">
+        <div class="input_warp">
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="input_warp input_warp_xm input_warp_xb">
+            <label>12.8</label>
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+
+        </div>
+        <div class="input_warp  input_warp_sj">
+            <label>12.1</label>
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="input_warp  input_warp_sj1">
+            <label>10.5</label>
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="input_warp  input_warp_sj2">
+            <label>10.4</label>
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="input_warp  input_warp_sj3">
+            <label>10.1</label>
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="input_warp  input_warp_sj4">
+            <label>8.10</label>
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="input_warp input_warp_sj input_warp_tc">
+            <div class="circle">
+                <span class=""></span>
+                <img src="img/cycle.png">
+            </div>
+        </div>
+        <div class="kuangd">
+            <div class="xian">
+                <div class="shi"></div>
+                <div class="xu"></div>
+            </div>
+            <table>
+                <tr>
+                    <th>消费内容</th>
+                    <th>消费人</th>
+                    <th>消费地点</th>
+                </tr>
+                <tr>
+                    <td>体检800元</td>
+                    <td>刘铭</td>
+                    <td>华西医院</td>
+                </tr>
+                <tr>
+                    <td>体检800元</td>
+                    <td>刘铭</td>
+                    <td>华西医院</td>
+                </tr>
+                <tr>
+                    <td>体检800元</td>
+                    <td>刘铭</td>
+                    <td>华西医院</td>
+                </tr>
+                <tr>
+                    <td>体检800元</td>
+                    <td>刘铭</td>
+                    <td>华西医院</td>
+                </tr>
+                <tr>
+                    <td>体检800元</td>
+                    <td>刘铭</td>
+                    <td>华西医院</td>
+                </tr>
+                <tr>
+                    <td>体检800元</td>
+                    <td>刘铭</td>
+                    <td>华西医院</td>
+                </tr>
+                <!--<tr>
+                    <td  style="margin-top: 0.4rem">没有消费记录了</td>
+
+                </tr>-->
+            </table>
+            <div class="xiao">没有消费记录了</div>
+        </div>
+
+    </div>
+
+    <div class="bottom"></div>
+</form>
+<script>
+    function refresh() {
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 1080) {
+            document.documentElement.style.fontSize = 1080 / 10.8 + "px";
+        } else {
+            //  540    50
+
+            document.documentElement.style.fontSize = deviceWidth / 10.8 + "px";
+        }
+    }
+    refresh();
+    window.onresize = function () {
+        refresh();
+    }
+</script>
+
+</body>
+</html>

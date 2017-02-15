@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预约输入</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no"/>
+    <!--WebApp全屏模式   隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <!--强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明）-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码 -->
+    <meta name="format-detection" content="telephone=no"/>
+    <!--告诉设备忽略将页面中的地址识别 -->
+    <meta name="format-detection" content="address=no"/>
+    <link rel="stylesheet" href="css/appointment.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/appointment.js"></script>
+</head>
+<body>
+<form>
+    <div class="top">
+    </div>
+    <div class="center">
+        <div class="input_warp">
+            <label>手机号</label>
+            <div class="circle circledj">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <input type="text" class="cen_inp" placeholder="输入手机号">
+        </div>
+        <div class="input_warp input_warp2">
+            <label>体检中心</label>
+            <div class="circle">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <div  class="cen_sele cen_inp">
+                <select>
+                    <option selected="selected">--请选择--</option>
+                    <option>耳鼻喉</option>
+                    <option>妇科</option>
+                    <option>男科</option>
+                    <option >儿童课</option>
+                </select>
+                <img src="img/select_bg.png">
+            </div>
+
+        </div>
+        <div class="input_warp input_warp_xm">
+            <label>姓名</label>
+            <div class="circle">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <input type="text" class="cen_inp" placeholder="输入姓名">
+        </div>
+        <div class="input_warp input_warp_xm input_warp_xb">
+            <label>性别</label>
+            <div class="circle">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <div  class="cen_sele cen_inp">
+                <select>
+                    <option selected="selected">--请选择--</option>
+                    <option>男</option>
+                    <option>女</option>
+
+                </select>
+                <img src="img/select_bg.png">
+            </div>
+        </div>
+        <div class="input_warp input_warp_xm input_warp_nl">
+            <label>年龄</label>
+            <div class="circle">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <input type="text" class="cen_inp" placeholder="输入年龄">
+        </div>
+        <div class="input_warp  input_warp_sj">
+            <label>预约时间</label>
+            <div class="circle">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <input type="text" class="cen_inp" placeholder="选择时间">
+        </div>
+        <div class="input_warp input_warp_sj input_warp_tc">
+            <label>体检套餐</label>
+            <div class="circle ">
+                <span class="bg_circle"></span>
+                <img src="img/cycle.png" >
+            </div>
+            <div  class="cen_sele cen_inp">
+                <select>
+                    <option selected="selected">--请选择--</option>
+                    <option>男</option>
+                    <option>女</option>
+
+                </select>
+                <img src="img/select_bg.png">
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom">
+
+    </div>
+
+</form>
+<script>
+    function refresh() {
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 1080) {
+            document.documentElement.style.fontSize = 1080 / 10.8 + "px";
+        } else {
+            //  540    50
+
+            document.documentElement.style.fontSize = deviceWidth / 10.8 + "px";
+        }
+    }
+    refresh();
+    window.onresize = function () {
+        refresh();
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height: 100%;
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    height: 100%;
+    font-family:"SimHei"," 微软雅黑 ";
+    position: relative;
+    overflow: hidden;
+    background-image: -moz-linear-gradient( 90deg, rgb(84,99,148) 0%, rgb(177,77,142) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(84,99,148) 0%, rgb(177,77,142) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(84,99,148) 0%, rgb(177,77,142) 100%);
+}
+.per_zt{
+    width: 10rem;
+    height:auto;
+    margin: 0 auto;
+}
+.per_top{
+    width: 10rem;
+    height: 5.12rem;
+    margin-top: 0.77rem;
+}
+.per_topz{
+    width: 4.79rem;
+    height: 5.12rem;
+    float: left;
+    background: #b67eaf;
+    text-align: center;
+    border-radius: 0.2rem;
+    margin-left: 0.42rem;
+    margin-top: 0.42rem;
+}
+.per_topz img{
+    width: 2.82rem;
+    margin-top: 0.26rem;
+}
+.per_topz span{
+    display: block;
+    font-size: 0.45rem;
+    color: rgb( 255, 255, 255 );
+}
+.per_h{
+    width: 0.89rem;
+    height: 0.89rem;
+    background: url("../img/appointment_icon.png") no-repeat center;
+    background-size: 100% auto;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.per_topz:hover .per_h{
+    background: url("../img/appointment_%20icon_on.png") no-repeat center;
+    background-size: 100% auto;
+}
+.per_center{
+    width: 10rem;
+    height: 4.32rem;
+    background: #b67eaf;
+    border-radius: 0.2rem;
+    line-height:4.32rem;
+    margin-top: 0.42rem;
+    position: relative;
+    float: left;
+    margin-left: 0.42rem;
+}
+.per_center img{
+    width: 4.24rem;
+    height: 4.24rem;
+    margin-left: 1.4rem;
+}
+.per_center span{
+    position: absolute;
+    right: 1.5rem;
+    top:-0.9rem;
+    font-size: 0.45rem;
+    color: rgb( 255, 255, 255 );
+}
+.per_hg{
+    position: absolute;
+    right: 2.5rem;
+    top:2.2rem;
+}
+.per_center:hover .per_h{
+    background: url("../img/appointment_%20icon_on.png") no-repeat center;
+    background-size: 100% auto;
+}
+.per_topg{
+    margin-top: 0.42rem;
+    margin-bottom: 0.8rem;
+}
